@@ -35,7 +35,7 @@ a::after {
 a:hover:after{
     text-decoration: underline;
     color: black;
-    content:"Enjoy!"
+    content:"Have a Nice Trip!"
 
 }
 
