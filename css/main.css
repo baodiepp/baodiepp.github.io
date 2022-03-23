@@ -1,4 +1,4 @@
-.header-logo{
+.box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -6,21 +6,13 @@
     transform: translate(-50%, -50%)
 }
 
-.h1{
+.Bao{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1vw;
     margin: 10vw;
     text-align: center;
     font-weight: lighter;
-    
-}
 
-img{
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
 }
 
 a {
@@ -28,10 +20,24 @@ a {
 }
 
 a:hover{
+  color: transparent;
+}
+
+a::before,
+a::after {
+ content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+a:hover:after{
     text-decoration: underline;
+    color: black;
+    content:"Enjoy!"
+
 }
 
 a:visited {
     color: black;
   }
-
